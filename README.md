@@ -1,2 +1,6 @@
 # Tic--Tac-Toe-Game
-Made with C language.
+Tic Tac Toe Game made with using only C Language. 
+
+This was my first Project in 1st year of college.
+
+Kindly use online gdb compiler or other suitable compilers.
