@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-struct myDataType
+struct myownDataType
 {
     int i;
     char ch;
@@ -10,7 +10,7 @@ inputValue();
 
 void run();
 int check(char sym[16],char ch,int count);
-struct myDataType inputValue(char sym[16],int count);
+struct myownDataType inputValue(char sym[16],int count);
 void Display(char sym[16]);
 
 int main()
@@ -32,7 +32,7 @@ int main()
 void run()
 {
     int count = 0;
-    struct myDataType info;
+    struct myownDataType info;
     char symbol[16] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p'} ;
     Display(symbol);
     again:
@@ -46,10 +46,10 @@ void run()
         goto again;
     }
 }
-struct myDataType inputValue(char sym[16],int count){
+struct myownDataType inputValue(char sym[16],int count){
     char value;
     int i;
-    struct myDataType info;
+    struct myownDataType info;
     inputAgain:
     if(count%2 == 0){
         printf("\nEnter Your Choice X:");
@@ -79,11 +79,11 @@ struct myDataType inputValue(char sym[16],int count){
 }
 int check(char sym[16],char ch,int count){
     int i;
-    for(i = 0;i<=8; i+=4)//it's for row
+    for(i = 0;i<=8; i+=4)//row
         if(sym[i] == ch && sym[i+1]==ch&&sym[i+2]==ch && sym[i+3]==ch){
             printf("\nthe Winner is : %c",ch);return 1;
         }
-    for(i = 0;i<4; i++)//it's for column
+    for(i = 0;i<4; i++)//coloumn
         if(sym[i]==ch && sym[i+4]==ch&&sym[i+8]==ch && sym[i+12]==ch){
             printf("\nthe Winner is : %c",ch);return 1;
         }
