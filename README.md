@@ -1,11 +1,5 @@
-# Tic--Tac-Toe-Game
-Tic Tac Toe Game made with using only C Language. 
+<img src='https://github.com/AnirbanMukherjeeXD/Tic-Tac-Toe-IMPOSSIBLE/blob/master/logo.png' height='100px'>
 
-This was my first Project in 1st year of college.
-
-Kindly use online gdb compiler or other suitable compilers.
-
-
-Edit:
-
-After completing my AI and Web technology course in my 5th semester I implented this using Min-Max Algorithm
+# Tic-Tac-Toe-IMPOSSIBLE
+A tic-tac-toe game which is impossible to be won <br />
+Created in HTML, CSS and JavaScript using [Minimax Algorithm](https://en.wikipedia.org/wiki/Minimax)

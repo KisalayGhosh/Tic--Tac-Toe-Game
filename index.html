@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<title>Tic-Tac-Toe IMPOSSIBLE</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="effects.js"></script>
+		<script src="game.js"></script>
+	</head>
+	<body onload="intro()">
+		<center>
+			<div id="header"></div>
+			<div id="msgLayer">
+				<div id="msg"></div>
+			</div>	
+
+			<div id="game">
+				<table id="grid">
+					<tr>
+						<td id="A00" onclick="play(0,0)">
+						<td id="A01" onclick="play(0,1)">
+						<td id="A02" onclick="play(0,2)">
+					<tr>
+						<td id="A10" onclick="play(1,0)">
+						<td id="A11" onclick="play(1,1)">
+						<td id="A12" onclick="play(1,2)">
+					<tr>
+						<td id="A20" onclick="play(2,0)">
+						<td id="A21" onclick="play(2,1)">
+						<td id="A22" onclick="play(2,2)">
+				</table>
+			</div>
+			<br><br>
+			<div class="button" id="pc" onclick="pcplay()"> Computer Play First </div>
+			<div style="display:none" class="button" id="reset" onclick="clearA();s2.play();"> Reset </div>
+		</center>
+	</body>
+</html>	
