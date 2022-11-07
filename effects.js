@@ -5,7 +5,7 @@ s3=new Audio("sounds/3.wav");
 s4=new Audio("sounds/4.wav");
 		
 function intro(){
-	msg("TIC TAC TOE<BR><small>by Kisalay Ghosh</small>");
+	msg("TIC TAC TOE<br><I>IMPOSSIBLE</I><BR><small>by Kisalay Ghosh</small>");
 }	
 		
 function msg(text){
